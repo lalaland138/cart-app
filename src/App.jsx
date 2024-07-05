@@ -12,7 +12,7 @@ function App() {
         <div>Logout</div>
       </div>
       <div className="app-body">
-        <BrowserRouter basename="commerce">
+        <BrowserRouter basename="cart-app">
           <Routes>
             <Route element={<ProtectedRoutes />}>
               <Route path="/cart" element={<CommercePage />}></Route>

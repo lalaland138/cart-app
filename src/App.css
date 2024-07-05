@@ -1,0 +1,48 @@
+#root {
+  width: 100%;
+  max-width: 1280px;
+  min-height: 100vh;
+}
+
+.landing-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app-header,
+.app-footer {
+  height: 2rem;
+  background-color: grey;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-body {
+  max-height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 1rem;
+  width: 70vw;
+  overflow: scroll;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 30vw;
+}
+
+.app-footer {
+  font-size: 10px;
+}
